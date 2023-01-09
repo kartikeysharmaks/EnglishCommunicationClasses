@@ -1,0 +1,99 @@
+.home-container {
+    background-image: url('/src/assets/education1.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-page-image {
+    width: 600px;
+    height: 500px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.home-page-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-image {
+    width: 600px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.right-image img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:400) {
+    .home-element {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:800px) {
+    .right-image {
+        display: none;
+    }
+}
+
+@media (max-width:1000px) {
+    .right-image {
+        width: 500px;
+        height: 400px;
+        object-fit: contain;
+    }
+    .right-image img {
+        width: 100%;
+        height: 100%;
+    }
+    .home {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:1200px) {
+    .home-page-image {
+        width: 450px;
+        height: 350px;
+        object-fit: contain;
+    }
+    .home-page-image img {
+        width: 100%;
+        height: 100%;
+    }
+    .right-image {
+        width: 500px;
+        height: 400px;
+        object-fit: contain;
+    }
+    .right-image img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width:1500px) {
+    .home-container {
+        height: 100%;
+    }
+}

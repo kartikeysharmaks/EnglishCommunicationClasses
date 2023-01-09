@@ -1,0 +1,37 @@
+.screen-text {
+    margin-top: 10vh;
+    max-width: 30vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-heading {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.text-subheading {
+    font-size: 30px;
+}
+
+@media (max-width:1200px) {
+    .screen-text {
+        max-width: 60vw;
+        margin-top: 3vh;
+        justify-content: flex-start;
+    }
+    .text-heading {
+        font-size: 50px;
+    }
+    .text-subheading {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:400px) {
+    .screen-text {
+        margin-left: -12vw;
+    }
+}

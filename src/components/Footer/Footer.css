@@ -1,0 +1,52 @@
+.footer-container {
+    margin-top: -40px;
+    width: 100vw;
+    background-image: url('/src/assets/education1.jpg');
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+}
+
+.footer-detail {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.f-item {
+    margin: 15px 25px;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.footer-item {
+    height: 30px;
+    width: 30px;
+    margin: 10px 30px;
+}
+
+@media (max-width:1000px) {
+    .footer-detail {
+        font-size: 17px;
+        flex-direction: column;
+        font-weight: 500;
+    }
+    .footer-item {
+        height: 25px;
+        width: 25px;
+    }
+}

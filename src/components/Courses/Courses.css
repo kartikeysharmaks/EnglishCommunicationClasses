@@ -1,0 +1,101 @@
+.courses-container {
+    background-image: url('/src/assets/education1.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.courses {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses-heading {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.courses-subheading {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.courses-image {
+    height: 200px;
+    width: 250px;
+}
+
+.courses-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.courses-types {
+    display: flex;
+    margin-top: 50px;
+}
+
+.course-type {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin: 20px;
+    width: 33%;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.course-heading {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.course-details {
+    font-size: 20px;
+}
+
+.course-duration {
+    font-weight: 600;
+}
+
+.courses-desc {
+    text-align: center;
+    max-width: 75%;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media (max-width:1200px) {
+    .courses-types {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .course-type {
+        width: 70%;
+    }
+    .courses-desc {
+        font-size: 20px;
+    }
+    .courses-heading {
+        font-size: 42px;
+    }
+    .courses-subheading {
+        margin-top: 5px;
+        font-size: 25px;
+    }
+}

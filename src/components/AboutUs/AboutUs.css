@@ -1,0 +1,79 @@
+.about-container {
+    background-image: url('/src/assets/education1.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 30px;
+}
+
+.about-image {
+    padding: 0 15px;
+}
+
+.about-image p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.key-features {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+@media (max-width:1500px) {
+    .about-container {
+        height: 100%;
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-heading {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.about-details {
+    text-align: center;
+    font-size: 24px;
+    max-width: 70%;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.about-images {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+@media (max-width:1200px) {
+    .about-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-details {
+        max-width: 85%;
+        font-size: 19px;
+    }
+    .about-heading {
+        font-size: 40px;
+    }
+    .key-features {
+        font-size: 27px;
+    }
+}

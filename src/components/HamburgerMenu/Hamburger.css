@@ -1,0 +1,46 @@
+.menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    background-color: whitesmoke;
+    z-index: 10;
+}
+
+@media (max-width:500px) {
+    .menu {
+        right: 70px;
+    }
+}
+
+.closeicon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icon {
+    padding: 10px;
+    margin: 10px;
+    height: 28px;
+    width: 28px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list ul {
+    list-style: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.list li {
+    margin: 18px;
+    cursor: pointer;
+}
